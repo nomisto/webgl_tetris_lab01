@@ -95,7 +95,7 @@ function drawScene() {
 
     var pMatrix = mat4.create();
     mat4.identity(pMatrix);
-    mat4.perspective(pMatrix, 45, (gl.viewportWidth/gl.viewportHeight), 0.1, 2000.0);
+    mat4.perspective(pMatrix, Math.PI/2, (gl.viewportWidth/gl.viewportHeight), 0.1, 2000.0);
     setPMatrixUniform(pMatrix);
 	
 	var background = ObjectManager.getBackground();
