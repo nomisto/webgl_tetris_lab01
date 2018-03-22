@@ -5,6 +5,8 @@ All images from pexels.com under CC0 License.
 
 This program requires a webserver to run, because of the image restrictions. (Tested with xampp - Apache webserver)
 
+The size of one unit can be set within the html. Please enter a valid input, the program rejects negative inputs or input equal null.
+
 The texture image is quite big (~ 9mb). I hope this doesn't count as inefficient and slow. 
 The picture could be made smaller, but as I run it locally the download-time is negligible.
 

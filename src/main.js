@@ -88,7 +88,7 @@ function loadTextures(){
 
 
 //Draws the Arrays and hands over the belonging mvMatrix of all tetrominos/objects stored in the ObjectManager
-//Also creates the perspective Matrix and sets it to the uniform.
+//Also creates the projection Matrix and sets it to the uniform.
 function drawScene() {
 	gl.viewport(0, 0, gl.viewportWidth, gl.viewportHeight);
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
